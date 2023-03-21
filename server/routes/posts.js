@@ -1,13 +1,13 @@
 import express from "express";
 
-import {
+const {
   getPosts,
   getPost,
   createPost,
   updatePost,
   likePost,
   deletePost,
-} from "../controllers/posts";
+} = require("../controllers/posts");
 
 const router = express.Router();
 
